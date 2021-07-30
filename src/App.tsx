@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import './App.css'
 import { DialectHeader, DialectFooter } from './DialectProps'
 import tv_logo from '../assets/tv_logo.png'
+import teamviewer from '../assets/teamviewerbl.png'
+import teamviewersnabb from '../assets/teamviewersnabb.png'
 import tv_req from '../assets/tv_req.png'
-import bruksanvisning from '../assets/Bruksansvisning.png'
-
+import bruksanvisning from '../assets/bruksanvisningar.png'
+import bylinelogo from '../assets/Dialect_ByLine2020_White_Coral.png'
 
 function App() {
 
@@ -12,23 +14,23 @@ function App() {
 
     return (
     <div className="row">
-      <div className="col">
-        <a href="https://get.teamviewer.com/dialectquick"><img src={tv_logo}/></a>
-        <p>Teamviewer snabbhjälp</p>
-        <p>Windows / Mac</p>
-      </div>
+      <a href="https://get.teamviewer.com/dialectquick"><div className="col">
+        <img className="thumbnail" src={teamviewersnabb}/>
+        <h3>Teamviewer snabbhjälp</h3>
+        <p className="fadedText">Windows / Mac</p>
+      </div></a>
 
-      <div className="col">
-        <a href="https://dialect.it/TV15/DialectTV.exe"><img src={tv_req}/></a>
-        <p>Teamviewer supportavtal</p>
-        <p>Windows</p>
-      </div>
+      <a href="https://dialect.it/TV15/DialectTV.exe"><div className="col">
+        <img className="thumbnail" src={teamviewer}/>
+        <h3>Teamviewer supportavtal</h3>
+        <p className="fadedText">Windows</p>
+      </div></a>
 
-      <div className="col">
-        <a href="https://www.dialect.it/Bruksanvisningar"><img src={bruksanvisning}/></a>
-        <p>Manualer och guider</p>
-        <p>Ladda ned hjälpmaterial</p>
-      </div>
+      <a href="https://www.dialect.it/Bruksanvisningar"><div className="col">
+        <img className="thumbnail" src={bruksanvisning}/>
+        <h3>Manualer och guider</h3>
+        <p className="fadedText">Ladda ned hjälpmaterial</p>
+      </div></a>
 
     </div>
     )
@@ -49,6 +51,8 @@ function App() {
           <br/>
           
           <DownloadSection/>
+
+          <img src={bylinelogo}/>
 
         </div>
       </main>

@@ -30,6 +30,18 @@ h3 {
   margin: 5px;
 }
 
+.fadedText {
+  color: darkgray;
+}
+
+a {
+  color:white;
+}
+
+a:visited {
+  color:white;
+}
+
 /*#1A4E63blue*/ 
 
 .footerWrapper {
@@ -70,6 +82,16 @@ footer a {
 .col {
   float: left;
   width: 33.33%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col:hover {
+  background-color: #242424;
+}
+
+.thumbnail {
+  width: 40%;
 }
 
 .Content {
@@ -112,7 +134,6 @@ footer a {
     width: 100%;
   }
 
-
   .footerrow {
     margin: 5px 7px;
   }
@@ -125,6 +146,7 @@ footer a {
 
   .col {
     width: 100%;
+    margin-top: 20px;
   }
 
 }
