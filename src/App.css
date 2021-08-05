@@ -101,12 +101,12 @@ footer a {
   width: 75%;
   padding: 20px;
   height: 100%;
+  position: relative;
 }
 
 .Content p {
   margin: 0;
 }
-
 
 @font-face {
   font-family: 'aventalight';
@@ -149,4 +149,11 @@ footer a {
     margin-top: 20px;
   }
 
+}
+
+#byline {
+  position: absolute;
+  width: 40%;
+  bottom: 0;
+  left: 30%
 }

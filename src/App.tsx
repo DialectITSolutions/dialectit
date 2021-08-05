@@ -6,7 +6,7 @@ import teamviewer from '../assets/teamviewerbl.png'
 import teamviewersnabb from '../assets/teamviewersnabb.png'
 import tv_req from '../assets/tv_req.png'
 import bruksanvisning from '../assets/bruksanvisningar.png'
-import bylinelogo from '../assets/Dialect_ByLine2020_White_Coral.png'
+import bylinelogo from '../assets/byline.png'
 
 function App() {
 
@@ -52,7 +52,7 @@ function App() {
           
           <DownloadSection/>
 
-          <img src={bylinelogo}/>
+          <img id="byline" src={bylinelogo}/>
 
         </div>
       </main>
