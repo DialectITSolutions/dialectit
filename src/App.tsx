@@ -20,7 +20,7 @@ function App() {
         <p className="fadedText">Windows / Mac</p>
       </div></a>
 
-      <a href="https://ny.dialect.it/TV15/DialectTV.exe"><div className="col">
+      <a href="/DialectTV.exe"><div className="col">
         <img className="thumbnail" src={teamviewer}/>
         <h3>Teamviewer supportavtal</h3>
         <p className="fadedText">Windows</p>
