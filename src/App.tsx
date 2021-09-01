@@ -20,13 +20,13 @@ function App() {
         <p className="fadedText">Windows / Mac</p>
       </div></a>
 
-      <a href="https://dialect.it/TV15/DialectTV.exe"><div className="col">
+      <a href="https://ny.dialect.it/TV15/DialectTV.exe"><div className="col">
         <img className="thumbnail" src={teamviewer}/>
         <h3>Teamviewer supportavtal</h3>
         <p className="fadedText">Windows</p>
       </div></a>
 
-      <a href="https://www.dialect.it/Bruksanvisningar"><div className="col">
+      <a href="https://www.ny.dialect.it/Bruksanvisningar"><div className="col">
         <img className="thumbnail" src={bruksanvisning}/>
         <h3>Manualer och guider</h3>
         <p className="fadedText">Ladda ned hjälpmaterial</p>
