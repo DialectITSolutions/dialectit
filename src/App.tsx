@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './App.css'
 import { DialectHeader, DialectFooter } from './DialectProps'
-import tv_logo from './assets/tv_logo.png'
+//import tv_logo from './assets/tv_logo.png'
 import teamviewer from './assets/teamviewerbl.png'
 import teamviewersnabb from './assets/teamviewersnabb.png'
-import tv_req from './assets/tv_req.png'
+//import tv_req from './assets/tv_req.png'
 import bruksanvisning from './assets/bruksanvisningar.png'
 import bylinelogo from './assets/byline.png'
 
